@@ -1,6 +1,8 @@
 *
 !.gitignore
 !README.md
+!favicon.gif
+!favicon.ico
 
 *.log
 !wp-content/
