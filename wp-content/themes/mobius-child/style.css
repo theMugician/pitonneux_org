@@ -1,0 +1,79 @@
+/*
+
+Theme Name: Mobius Child
+Theme URI: http://www.theme-one.com/mobius/
+Author: ThemeOne
+Author URI: http://www.theme-one.com
+Description: Mobius Child Theme.
+Template: mobius
+Version: 2.7.5
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-menu, full-width-template, sticky-post, theme-options, translation-ready
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: mobius-child
+
+*/
+
+.home .to-page-heading .col-12 .col-6 {
+  width: 70%;
+}
+
+.page-id-3584 .to-page-heading:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  content: " ";
+  background: -moz-linear-gradient(45deg,  rgba(245,71,13,0.58) 0%, rgba(224,32,140,0.58) 83%, rgba(224,32,140,0.58) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  rgba(245,71,13,0.58) 0%,rgba(224,32,140,0.58) 83%,rgba(224,32,140,0.58) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  rgba(245,71,13,0.58) 0%,rgba(224,32,140,0.58) 83%,rgba(224,32,140,0.58) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.page-id-3584 .to-page-heading .section-container {
+  width: 70%;
+  z-index: 2;
+}
+
+.section-container {
+  max-width: 960px;
+}
+
+.page-id-3584 .to-page-heading:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  content: " ";
+  background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQYV2NkQAKXLl0yZoTxQRw9Pb2zYAEYB8RmROaABADKKQ6u0mOAUAAAAABJRU5ErkJggg==
+  ) repeat;
+}
+
+#lab-12 .section-container {
+  z-index: 2;
+
+}
+
+#lab-12 {
+  background-color: transparent!important;
+  background: url('https://www.pitonneux.org/wp-content/uploads/2018/01/demonight.jpg') center no-repeat;
+  background-size: auto 100%;
+  background-position: 100%;
+}
+
+#lab-12:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  content: " ";
+  background: -webkit-linear-gradient(90deg, rgba(145,190,40,1) 0%, rgba(185,217,76,1) 60%, rgba(228,239,62,0.6) 100%);
+  background: -o-linear-gradient(90deg, rgba(145,190,40,1) 0%, rgba(185,217,76,1) 60%, rgba(228,239,62,0.6) 100%);
+  background: linear-gradient(90deg, rgba(145,190,40,1) 0%, rgba(185,217,76,1) 60%, rgba(228,239,62,0.6) 100%);
+}
